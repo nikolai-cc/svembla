@@ -26,6 +26,7 @@
   },
   "type": "module",
   "dependencies": {
-    "embla-carousel": "^6.2.0"
+    "embla-carousel": "^6.2.0",
+    "svelte2tsx": "^0.5.9"
   }
 }
