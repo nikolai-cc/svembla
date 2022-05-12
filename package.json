@@ -1,0 +1,31 @@
+{
+  "name": "svembla",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolai-cc/svembla.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolai-cc/svembla/issues"
+  },
+  "author": "nikolai-cc (https://nikolai.cc)",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.10.1",
+    "tslib": "^2.3.1",
+    "typescript": "~4.6.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "embla-carousel": "^6.2.0"
+  }
+}
