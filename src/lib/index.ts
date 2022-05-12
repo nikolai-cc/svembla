@@ -1,1 +1,2 @@
-export * from './svembla';
+import { svembla } from './svembla';
+export default svembla;
