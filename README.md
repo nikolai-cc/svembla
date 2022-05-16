@@ -15,28 +15,25 @@ Lightweight [Svelte](https://svelte.dev) (typescript) action wrapper around [Emb
 <div class="embla" use:svembla>
     <div class="container">
         {#each colors as color}
-        <div style:background-color="{color}" class="item" />
+            <div style:background-color="{color}" class="item" />
         {/each}
-        <div>
-            <div>
-                <style>
-                    .embla {
-                        overflow: hidden;
-                    }
-
-                    .container {
-                        display: flex;
-                    }
-
-                    .item {
-                        display: relative;
-                        flex: 0 0 100%;
-                    }
-                </style>
-            </div>
-        </div>
     </div>
 </div>
+
+<style>
+    .embla {
+        overflow: hidden;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .item {
+        display: relative;
+        flex: 0 0 100%;
+    }
+</style>
 ```
 
 ### Programmatic control
